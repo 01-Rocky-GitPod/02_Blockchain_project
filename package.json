@@ -5,7 +5,7 @@
   "main": "dev-test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-test":"nodemon dev-test"
+    "dev-test": "nodemon dev-test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/01-Rocky-GitPod/02_Blockchain_project#readme",
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
